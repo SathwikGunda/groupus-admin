@@ -22,15 +22,16 @@
     </div>
 </div>
 
+
 <div class="content mt-3">
 
     <div class="col-xl-3 col-lg-6">
-        <div class="card text-white bg-flat-color-2">
+        <div class="card text-white bg-flat-color-1">
             <div class="card-body">
                 <div class="stat-widget-one">
-                    <div class="stat-icon dib"><i class="ti-money text-white border-white"></i></div>
+                    <div class="stat-icon dib"><i class="ti-user fa-users text-white border-white"></i></div>
                     <div class="stat-content dib">
-                        <div class="stat-text text-light">Total Profit</div>
+                        <div class="stat-text text-light">No.of Users</div>
                         <div class="stat-digit text-white">1,012</div>
                     </div>
                 </div>
@@ -39,13 +40,13 @@
     </div>
     
     <div class="col-xl-3 col-lg-6">
-        <div class="card text-white bg-flat-color-2">
+        <div class="card text-white bg-flat-color-3">
             <div class="card-body">
                 <div class="stat-widget-one">
-                    <div class="stat-icon dib"><i class="ti-money text-white border-white"></i></div>
+                    <div class="stat-icon dib"><i class="fa fa-tags text-white border-white"></i></div>
                     <div class="stat-content dib">
-                        <div class="stat-text text-light">Total Profit</div>
-                        <div class="stat-digit text-white">1,012</div>
+                        <div class="stat-text text-light">No.of Categories</div>
+                        <div class="stat-digit text-white">3</div>
                     </div>
                 </div>
             </div>
@@ -53,12 +54,12 @@
     </div>
 
     <div class="col-xl-3 col-lg-6">
-        <div class="card text-white bg-flat-color-3">
+        <div class="card text-white bg-flat-color-2">
             <div class="card-body">
                 <div class="stat-widget-one">
-                    <div class="stat-icon dib"><i class="ti-user text-white border-white"></i></div>
+                    <div class="stat-icon dib"><i class="fa fa-users text-white border-white"></i></div>
                     <div class="stat-content dib">
-                        <div class="stat-text text-light">New Customer</div>
+                        <div class="stat-text text-light">No.of Groups</div>
                         <div class="stat-digit text-white">961</div>
                     </div>
                 </div>
@@ -70,9 +71,9 @@
         <div class="card text-white bg-flat-color-4">
             <div class="card-body">
                 <div class="stat-widget-one">
-                    <div class="stat-icon dib"><i class="ti-layout-grid2 text-white bordewhite"></i></div>
+                    <div class="stat-icon dib"><i class="fa fa-calendar text-white bordewhite"></i></div>
                     <div class="stat-content dib">
-                        <div class="stat-text text-light">Active Projects</div>
+                        <div class="stat-text text-light">New Events</div>
                         <div class="stat-digit text-white">770</div>
                     </div>
                 </div>
