@@ -32,78 +32,80 @@
                         <strong class="card-title">Groups List</strong>
                     </div>
                     <div class="card-body">
-                        <table id="bootstrap-data-table" class="table table-striped table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Group Name</th>
-                                    <th>Location</th>
-                                    <th>Category Type</th>
-                                    <th>Group Type</th>
-                                    <th>No.of Members</th>
-                                    <th>Events Conducted</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Hyderabad Tricking Club</td>
-                                    <td>Hyderabad</td>
-                                    <td>Reality</td>
-                                    <td>Public</td>
-                                    <td>2100</td>
-                                    <td>24</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger btn-sm">
-                                            <i class="fa fa-trash-o"></i> Delete
-                                        </button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Passion about Fashion</td>
-                                    <td>Bangalore</td>
-                                    <td>Fashion</td>
-                                    <td>Private</td>
-                                    <td>2100</td>
-                                    <td>24</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger btn-sm">
-                                            <i class="fa fa-trash-o"></i> Delete
-                                        </button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Makes u Beautiful</td>
-                                    <td>Chennai</td>
-                                    <td>Beauty</td>
-                                    <td>Public</td>
-                                    <td>2100</td>
-                                    <td>24</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger btn-sm">
-                                            <i class="fa fa-trash-o"></i> Delete
-                                        </button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>The Entrepreneur Zone</td>
-                                    <td>Mumbai</td>
-                                    <td>Automobile</td>
-                                    <td>Private</td>
-                                    <td>2100</td>
-                                    <td>24</td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger btn-sm">
-                                            <i class="fa fa-trash-o"></i> Delete
-                                        </button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>S.No</th>
+                                        <th>Group Name</th>
+                                        <th>Location</th>
+                                        <th>Category Type</th>
+                                        <th>Group Type</th>
+                                        <th>No.of Members</th>
+                                        <th>Events Conducted</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Hyderabad Tricking Club</td>
+                                        <td>Hyderabad</td>
+                                        <td>Reality</td>
+                                        <td>Public</td>
+                                        <td>2100</td>
+                                        <td>24</td>
+                                        <td>
+                                            <button type="button" class="btn btn-danger btn-sm">
+                                                <i class="fa fa-trash-o"></i> Delete
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Passion about Fashion</td>
+                                        <td>Bangalore</td>
+                                        <td>Fashion</td>
+                                        <td>Private</td>
+                                        <td>2100</td>
+                                        <td>24</td>
+                                        <td>
+                                            <button type="button" class="btn btn-danger btn-sm">
+                                                <i class="fa fa-trash-o"></i> Delete
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Makes u Beautiful</td>
+                                        <td>Chennai</td>
+                                        <td>Beauty</td>
+                                        <td>Public</td>
+                                        <td>2100</td>
+                                        <td>24</td>
+                                        <td>
+                                            <button type="button" class="btn btn-danger btn-sm">
+                                                <i class="fa fa-trash-o"></i> Delete
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>The Entrepreneur Zone</td>
+                                        <td>Mumbai</td>
+                                        <td>Automobile</td>
+                                        <td>Private</td>
+                                        <td>2100</td>
+                                        <td>24</td>
+                                        <td>
+                                            <button type="button" class="btn btn-danger btn-sm">
+                                                <i class="fa fa-trash-o"></i> Delete
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

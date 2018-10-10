@@ -32,73 +32,75 @@
                         <strong class="card-title">Categories List</strong>
                     </div>
                     <div class="card-body">
-                        <table id="bootstrap-data-table" class="table table-striped table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>S.No</th>
-                                    <th>Category Name</th>
-                                    <th>Created Date</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Fashion & Beauty</td>
-                                    <td>15-2-2017</td>
-                                    <td>
-                                        <a href="edit-category.php">
-                                            <button type="button" class="btn btn-sm social btn-primary">
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                        </a>
-                                        <a href="#">
-                                            <button type="button" class="btn btn-sm social btn-danger">
-                                                <i class="fa fa-trash-o"></i>
-                                            </button>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Automobile</td>
-                                    <td>18-7-2017</td>
-                                    <td>
-                                        <a href="edit-category.php">
-                                            <button type="button" class="btn btn-sm social btn-primary">
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                        </a>
-                                        <a href="#">
-                                            <button type="button" class="btn btn-sm social btn-danger">
-                                                <i class="fa fa-trash-o"></i>
-                                            </button>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Reality</td>
-                                    <td>24-3-2018</td>
-                                    <td>
-                                        <a href="edit-category.php">
-                                            <button type="button" class="btn btn-sm social btn-primary">
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                        </a>
-                                        <a href="#">
-                                            <button type="button" class="btn btn-sm social btn-danger">
-                                                <i class="fa fa-trash-o"></i>
-                                            </button>
-                                        </a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table id="bootstrap-data-table" class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>S.No</th>
+                                        <th>Category Name</th>
+                                        <th>Created Date</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Fashion & Beauty</td>
+                                        <td>15-2-2017</td>
+                                        <td>
+                                            <a href="edit-category.php">
+                                                <button type="button" class="btn btn-sm social btn-primary">
+                                                    <i class="fa fa-edit"></i>
+                                                </button>
+                                            </a>
+                                            <a href="#">
+                                                <button type="button" class="btn btn-sm social btn-danger">
+                                                    <i class="fa fa-trash-o"></i>
+                                                </button>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Automobile</td>
+                                        <td>18-7-2017</td>
+                                        <td>
+                                            <a href="edit-category.php">
+                                                <button type="button" class="btn btn-sm social btn-primary">
+                                                    <i class="fa fa-edit"></i>
+                                                </button>
+                                            </a>
+                                            <a href="#">
+                                                <button type="button" class="btn btn-sm social btn-danger">
+                                                    <i class="fa fa-trash-o"></i>
+                                                </button>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Reality</td>
+                                        <td>24-3-2018</td>
+                                        <td>
+                                            <a href="edit-category.php">
+                                                <button type="button" class="btn btn-sm social btn-primary">
+                                                    <i class="fa fa-edit"></i>
+                                                </button>
+                                            </a>
+                                            <a href="#">
+                                                <button type="button" class="btn btn-sm social btn-danger">
+                                                    <i class="fa fa-trash-o"></i>
+                                                </button>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                    
+                        </div>
                     </div>
                 </div>
             </div>
-
 
         </div>
     </div><!-- .animated -->
