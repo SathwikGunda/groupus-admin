@@ -6,7 +6,7 @@
     <div class="col-sm-4">
         <div class="page-header float-left">
             <div class="page-title">
-                <h1>Users</h1>
+                <h1>Payments</h1>
             </div>
         </div>
     </div>
@@ -15,7 +15,7 @@
             <div class="page-title">
                 <ol class="breadcrumb text-right">
                     <li><a href="index.php">Dashboard</a></li>
-                    <li class="active">Users</li>
+                    <li class="active">Payments</li>
                 </ol>
             </div>
         </div>
@@ -29,7 +29,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <strong class="card-title">Users List</strong>
+                        <strong class="card-title">Users Payment List</strong>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
@@ -37,11 +37,11 @@
                                 <thead>
                                     <tr>
                                         <th>S.No</th>
-                                        <th>UserName</th>
+                                        <th>User Id</th>
                                         <th>Email Id</th>
-                                        <th>Joined Date</th>
-                                        <th>Member of groups</th>
-                                        <th>Created Groups</th>
+                                        <th>Created Date</th>
+                                        <th>Group Name</th>
+                                        <th>Amount Paid</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -51,8 +51,8 @@
                                         <td>John Deo</td>
                                         <td>johndeo@gmail.com</td>
                                         <td>21-9-2018</td>
-                                        <td>210</td>
-                                        <td>24</td>
+                                        <td>Hyderabad Tricking Club</td>
+                                        <td>2400</td>
                                         <td>
                                             <button type="button" class="btn btn-danger btn-sm">
                                                 <i class="fa fa-trash-o"></i> Delete
@@ -64,8 +64,8 @@
                                         <td>Leo Cartey</td>
                                         <td>carteyleo@gmail.com</td>
                                         <td>1-6-2018</td>
-                                        <td>100</td>
-                                        <td>4</td>
+                                        <td>Passion about Fashion</td>
+                                        <td>4000</td>
                                         <td>
                                             <button type="button" class="btn btn-danger btn-sm">
                                                 <i class="fa fa-trash-o"></i> Delete
@@ -77,8 +77,8 @@
                                         <td>Messi King</td>
                                         <td>messitheking@yahoo.com</td>
                                         <td>14-5-2017</td>
-                                        <td>20</td>
-                                        <td>2</td>
+                                        <td>Makes u Beautiful</td>
+                                        <td>2400</td>
                                         <td>
                                             <button type="button" class="btn btn-danger btn-sm">
                                                 <i class="fa fa-trash-o"></i> Delete
@@ -90,8 +90,8 @@
                                         <td>Mosi Venom</td>
                                         <td>venomosi@yahoo.com</td>
                                         <td>7-3-2017</td>
-                                        <td>70</td>
-                                        <td>1</td>
+                                        <td>The Entrepreneur Zone</td>
+                                        <td>4000</td>
                                         <td>
                                             <button type="button" class="btn btn-danger btn-sm">
                                                 <i class="fa fa-trash-o"></i> Delete

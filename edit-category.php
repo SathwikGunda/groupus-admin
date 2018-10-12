@@ -46,7 +46,7 @@
                             </div>
                             <div class="col-md-6">
                                 <button type="submit" class="btn btn-sm btn-primary float-right">Update</button>
-                        </div>
+                            </div>
                         </form>
                     </div>
                 </div>

@@ -41,7 +41,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-sm btn-success">Add Category</button>
+                            <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#modal">Add Category</button>
                         </form>
                     </div>
                 </div>
@@ -49,6 +49,19 @@
         </div>
     </div><!-- .animated -->
 </div><!-- .content -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <p>Category Added</p>
+                <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php include('footer.php'); ?>

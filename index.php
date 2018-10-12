@@ -82,42 +82,106 @@
     </div>
 
 
-    <div class="col-xl-12">
+    <div class="col-md-4">
         <div class="card">
+            <div class="card-header">
+                <strong class="card-title mb-3">Profile Card</strong>
+            </div>
             <div class="card-body">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <h4 class="card-title mb-0">Traffic</h4>
-                        <div class="small text-muted">October 2017</div>
-                    </div>
-                    <!--/.col-->
-                    <div class="col-sm-8 hidden-sm-down">
-                        <button type="button" class="btn btn-primary float-right bg-flat-color-1"><i class="fa fa-cloud-download"></i></button>
-                        <div class="btn-toolbar float-right" role="toolbar" aria-label="Toolbar with button groups">
-                            <div class="btn-group mr-3" data-toggle="buttons" aria-label="First group">
-                                <label class="btn btn-outline-secondary">
-                                    <input type="radio" name="options" id="option1"> Day
-                                </label>
-                                <label class="btn btn-outline-secondary active">
-                                    <input type="radio" name="options" id="option2" checked=""> Month
-                                </label>
-                                <label class="btn btn-outline-secondary">
-                                    <input type="radio" name="options" id="option3"> Year
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/.col-->
-
-
+                <div class="clearfix">&nbsp;</div>
+                <div class="mx-auto d-block">
+                    <img class="rounded-circle mx-auto d-block" src="images/admin.jpg" alt="Card image cap">
+                    <h5 class="text-sm-center mt-2 mb-1">Steven Lee</h5>
+                    <div class="location text-sm-center"><i class="fa fa-map-marker"></i> California, United States</div>
                 </div>
-                <!--/.row-->
-                <div class="chart-wrapper mt-4">
-                    <canvas id="trafficChart" height="200px"></canvas>
-                </div>
-
-            </div>  
+                    <div class="clearfix">&nbsp;</div>
+            </div>
         </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <a href="categories-list.php" class="btn-link float-right">See all</a>
+                <strong class="card-title">Categories</strong>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    
+                    <table id="bootstrap-data-table" class="table table-bordered table-striped">
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Fashion & Beauty</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Automobile</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Reality</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Sports & Fitness</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Career & Bussiness</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <a href="mails.php" class="btn-link float-right">See all</a>
+                <strong class="card-title">Mails</strong>
+            </div>
+            <div class="card-body">
+                    <section>
+                        <span class="float-left mr-2">
+                            <img alt="avatar" src="images/avatar/1.jpg" height="50px" width="50px">
+                        </span>
+                        <span class="">
+                            <p><small class="float-right">Just now</small></p>
+                            <span class="float-left">Jonathan Smith</span>
+                            <br>
+                            <p class="">Hello, this is an example msg</p>
+                        </span>
+                    </section>
+                    <hr>
+                    <section>
+                        <span class="float-left mr-2"><img alt="avatar" src="images/avatar/3.jpg"></span>
+                        <span class="">
+                            <span class="float-left">Cheryl Wheeler</span>
+                            <p><small class="float-right ">10 minutes ago</small></p>
+                            <br>
+                            <p class="">Hello, this is an example msg</p>
+                        </span>
+                    </section>
+                    <hr>
+                    <section>
+                        <span class="float-left mr-2"><img alt="avatar" src="images/avatar/4.jpg"></span>
+                        <span class="">
+                            <span class="float-left">Rachel Santos</span>
+                            <p><small class="float-right">15 minutes ago</small></p>
+                            <br>
+                            <p class="">Lorem ipsum dolor sit amet</p>
+                        </span>
+                    </section>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+                
     </div>
     
 </div> <!-- .content -->

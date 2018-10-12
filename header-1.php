@@ -69,7 +69,7 @@
                     <div class="user-menu dropdown-menu">
                         <a class="nav-link text-white" href="profile.php"><i class="fa fa-user"></i> My Profile</a>
 
-                        <a class="nav-link text-white" href="#"><i class="fa fa-bell"></i> Notifications <span class="count">13</span></a>
+                        <a class="nav-link text-white" href="mails.php"><i class="ti-email"></i> Mails <span class="count">13</span></a>
 
                         <a class="nav-link text-white" href="edit-profile.php"><i class="fa fa-cog"></i> Settings</a>
 
